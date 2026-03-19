@@ -15,6 +15,7 @@ liuxiao@stu.cqu.edu.cn, zhangchenxu@cqu.edu.cn, leizhang@cqu.edu.cn
 
 - 2024.05.07: Our paper is released! [[arXiv](https://arxiv.org/abs/2405.04404)]
 - 2024.05.18: Added "Latest Visual Mamba Papers" column. We plan to update these papers in subsequent versions of our survey.
+- 2025.09.22: Our paper is accepted by IEEE Transactions on Neural Networks and Learning Systems (TNNLS). [[Paper](https://ieeexplore.ieee.org/abstract/document/11175044)]
 
 
 
