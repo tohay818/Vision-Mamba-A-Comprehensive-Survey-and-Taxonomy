@@ -23,13 +23,12 @@ liuxiao@stu.cqu.edu.cn, zhangchenxu@cqu.edu.cn, leizhang@cqu.edu.cn
 If you find this repository is useful for you, please cite our paper:
 
 ```
-@misc{liu2024vision,
-      title={Vision Mamba: A Comprehensive Survey and Taxonomy}, 
-      author={Xiao Liu and Chenxu Zhang and Lei Zhang},
-      year={2024},
-      eprint={2405.04404},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{liu2025vision,
+  title={Vision mamba: A comprehensive survey and taxonomy},
+  author={Liu, Xiao and Zhang, Chenxu and Huang, Fuxiang and Xia, Shuyin and Wang, Guoyin and Zhang, Lei},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
