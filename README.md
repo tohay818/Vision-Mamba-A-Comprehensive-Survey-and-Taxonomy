@@ -37,42 +37,42 @@ If you find this repository is useful for you, please cite our paper:
 
 ## Contents
 
-- [Related Survey](#Related-Survey)
-- [Latest vision Mamba paper](#Latest-vision-Mamba-paper)
-- [General Vision](#General-Vision)
-  - [High-level/Mid-level Vision](#1-High-levelMid-level-Vision)
-    - [Vision Backbone with Mamba](#11-Vision-Backbone-with-Mamba)
-    - [Video Analysis and Understanding](#12-Video-Analysis-and-Understanding)
-    - [Down-stream Visual Applications](#13-Down-stream-Visual-Applications)
-  - [Low-level Vision](#2-Low-level-Vision)
-    - [Image Denoising](#21-Image-Denoising)
-    - [Image Restoration](#22-Image-Restoration)
-  - [3-D Visual Recognition](#3-3-D-Visual-Recognition)
-    - [Point Could Analysis](#31-Point-Could-Analysis)
-    - [Hyperspectral Imaging Analysis](#32-Hyperspectral-Imaging-Analysis)
-  - [Visual Data Generation](#4-Visual-Data-Generation)
-- [Multi-Modal](#Multi-Modal)
-  - [Heterologous Stream](#1-Heterologous-Stream)
-    - [Multi-Modal Understanding](#11-Multi-Modal-Understanding)
-    - [Multimodal large language models](#12-Multimodal-large-language-models)
-  - [Homologous Stream](#2-Homologous-Stream)
-- [Vertical Application](#Vertical-Application)
-  - [Remote Sensing Image](#1-Remote-Sensing-Image)
-    - [Remote Sensing Image Processing](#11-Remote-Sensing-Image-Processing)
-    - [Remote Sensing Image Classification](#12-Remote-Sensing-Image-Classification)
-    - [Remote Sensing Image Change Detection](#13-Remote-Sensing-Image-Change-Detection)
-    - [Remote Sensing Image Segmentation](#14-Remote-Sensing-Image-Segmentation)
-    - [Remote Sensing Image Fusion](#15-Remote-Sensing-Image-Fusion)
-  - [Medical Image](#2-Medical-Image)
-    - [Medical Image Segmentation](#21-Medical-Image-Segmentation)
-      - [Preliminary explorations of U-shaped Mamba](#211-Preliminary-explorations-of-U-shaped-Mamba)
-      - [Improvements to the U-shaped Mamba](#212-Improvements-to-the-U-shaped-Mamba)
-      - [U-shaped Mamba with other methodologies](#213-U-shaped-Mamba-with-other-methodologies)
-      - [Multi-Dimensional Medical Data Segmentation](#214-Multi-Dimensional-Medical-Data-Segmentation)
-    - [Pathological Diagnosis](#22-Pathological-Diagnosis)
-    - [Deformable Image Registration](#23-Deformable-Image-Registration)
-    - [Medical Image Reconstruction](#24-Medical-Image-Reconstruction)
-    - [Other Medical Tasks](#25-Other-Medical-Tasks)
+- [Related Survey](#related-survey)
+- [Latest Vision Mamba Papers (2025–2026)](#latest-vision-mamba-papers-20252026)
+- [General Vision](#general-vision)
+  - [High-level/Mid-level Vision](#1-high-levelmid-level-vision)
+    - [Vision Backbone with Mamba](#11-vision-backbone-with-mamba)
+    - [Video Analysis and Understanding](#12-video-analysis-and-understanding)
+    - [Down-stream Visual Applications](#13-down-stream-visual-applications)
+  - [Low-level Vision](#2-low-level-vision)
+    - [Image Denoising and Enhancement](#21-image-denoising-and-enhancement)
+    - [Image Restoration](#22-image-restoration)
+  - [3-D Visual Recognition](#3-3-d-visual-recognition)
+    - [Point Could Analysis](#31-point-could-analysis)
+    - [Hyperspectral Imaging Analysis](#32-hyperspectral-imaging-analysis)
+  - [Visual Data Generation](#4-visual-data-generation)
+- [Multi-Modal](#multi-modal)
+  - [Heterologous Stream](#1-heterologous-stream)
+    - [Multi-Modal Understanding](#11-multi-modal-understanding)
+    - [Multimodal large language models](#12-multimodal-large-language-models)
+  - [Homologous Stream](#2-homologous-stream)
+- [Vertical Application](#vertical-application)
+  - [Remote Sensing Image](#1-remote-sensing-image)
+    - [Remote Sensing Image Processing](#11-remote-sensing-image-processing)
+    - [Remote Sensing Image Classification](#12-remote-sensing-image-classification)
+    - [Remote Sensing Image Change Detection](#13-remote-sensing-image-change-detection)
+    - [Remote Sensing Image Segmentation](#14-remote-sensing-image-segmentation)
+    - [Remote Sensing Image Fusion](#15-remote-sensing-image-fusion)
+  - [Medical Image](#2-medical-image)
+    - [Medical Image Segmentation](#21-medical-image-segmentation)
+      - [Preliminary explorations of U-shaped Mamba](#211-preliminary-explorations-of-u-shaped-mamba)
+      - [Improvements to the U-shaped Mamba](#212-improvements-to-the-u-shaped-mamba)
+      - [U-shaped Mamba with other methodologies](#213-u-shaped-mamba-with-other-methodologies)
+      - [Multi-Dimensional Medical Data Segmentation](#214-multi-dimensional-medical-data-segmentation)
+    - [Pathological Diagnosis](#22-pathological-diagnosis)
+    - [Deformable Image Registration](#23-deformable-image-registration)
+    - [Medical Image Reconstruction](#24-medical-image-reconstruction)
+    - [Other Medical Tasks](#25-other-medical-tasks)
 - [Other Domains](#other-domains) <br/>
 
 
@@ -94,6 +94,114 @@ If you find this repository is useful for you, please cite our paper:
 - **Computation-Efficient Era: A Comprehensive Survey of State Space Models in Medical Image Analysis.** [5 June, 2024] [ArXiv, 2024]<br/>
   *Moein Heidari, Sina Ghorbani Kolahi, Sanaz Karimijafarbigloo, Bobby Azad, Afshin Bozorgpour, Soheila Hatami, Reza Azad, Ali Diba, Ulas Bagci, Dorit Merhof, Ilker Hacihaliloglu.*<br/>
   [[Paper](https://arxiv.org/abs/2406.03430)] [[Gihub](https://github.com/xmindflow/Awesome_mamba)]
+
+
+
+
+
+## Latest Vision Mamba Papers (2025–2026)
+
+> Recent papers not yet classified into the main taxonomy. Focused on 2025–2026 publications.
+
+- **RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing.** [March, 2025] [NeurIPS, 2025]<br/>
+  *Fengxiang Wang, Yulin Wang, Mingshuo Chen, Haiyan Zhao, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.10392)]
+
+- **Multimodal Mamba: Decoder-only Multimodal State Space Model via Quadratic to Linear Distillation.** [February, 2025] [ArXiv, 2025]<br/>
+  *Bencheng Liao, Hongyuan Tao, Qian Zhang, Tianheng Cheng, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2502.13145)]
+
+- **H-MBA: Hierarchical MamBa Adaptation for Multi-Modal Video Understanding in Autonomous Driving.** [January, 2025] [ArXiv, 2025]<br/>
+  *Siran Chen, Yuxiao Luo, Yue Ma, Yu Qiao, Yali Wang.*<br/>
+  [[Paper](https://arxiv.org/abs/2501.04302)]
+
+- **VideoMAP: Toward Scalable Mamba-based Video Autoregressive Pretraining.** [March, 2025] [ArXiv, 2025]<br/>
+  *Yunze Liu, Peiran Wu, Cheng Liang, Junxiao Shen, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.12332)]
+
+- **MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration.** [December, 2024] [CVPR, 2025]<br/>
+  *Boyun Li, Haiyu Zhao, Wenxin Wang, Peng Hu, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2412.20066)]
+
+- **Dynamic Vision Mamba.** [April, 2025] [ArXiv, 2025]<br/>
+  *Mengxuan Wu, Zekai Li, Zhiyuan Liang, Moyang Li, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2504.04787)]
+
+- **Surface Vision Mamba: Leveraging Bidirectional State Space Model for Efficient Spherical Manifold Representation.** [January, 2025] [ArXiv, 2025]<br/>
+  *Rongzhao He, Weihao Zheng, Leilei Zhao, Ying Wang, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2501.14679)]
+
+- **MambaFlow: A Mamba-Centric Architecture for End-to-End Optical Flow Estimation.** [March, 2025] [ArXiv, 2025]<br/>
+  *Juntian Du, Zhihu Zhou, Runzhe Zhang, Yuan Sun, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.07046)]
+
+- **DAMamba: Vision State Space Model with Dynamic Adaptive Scan.** [February, 2025] [ArXiv, 2025]<br/>
+  *Tanzhe Li, Caoshuo Li, Jiayi Lyu, Hongjuan Pei, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2502.12627)]
+
+- **Fast Vision Mamba: Pooling Spatial Dimensions for Accelerated Processing.** [February, 2025] [ArXiv, 2025]<br/>
+  *Saarthak Kapse, Robin Betz, Srinivasan Sivanandan.*<br/>
+  [[Paper](https://arxiv.org/abs/2502.00594)]
+
+- **UniMamba: Unified Spatial-Channel Representation Learning with Group-Efficient Mamba for LiDAR-based 3D Object Detection.** [March, 2025] [CVPR, 2025]<br/>
+  *Xin Jin, Haisheng Su, Kai Liu, Cong Ma, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.12009)]
+
+- **MambaDETR: Query-based Temporal Modeling using State Space Model for Multi-View 3D Object Detection.** [November, 2024] [ArXiv, 2024]<br/>
+  *Tong Ning, Ke Lu, Xirui Jiang, Jian Xue.*<br/>
+  [[Paper](https://arxiv.org/abs/2411.13628)]
+
+- **EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality.** [November, 2024] [CVPR, 2025]<br/>
+  *Sanghyeok Lee, Joonmyung Choi, Hyunwoo J. Kim.*<br/>
+  [[Paper](https://arxiv.org/abs/2411.15241)]
+
+- **MambaQuant: Quantizing the Mamba Family with Variance Aligned Rotation Methods.** [January, 2025] [ArXiv, 2025]<br/>
+  *Zukang Xu, Yuxuan Yue, Xing Hu, Zhihang Yuan, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2501.13484)]
+
+- **Mamba2D: A Natively Multi-Dimensional State-Space Model for Vision Tasks.** [December, 2024] [ArXiv, 2024]<br/>
+  *Enis Baty, Alejandro Hernandez Diaz, Rebecca Davidson, Chris Bridges, Simon Hadfield.*<br/>
+  [[Paper](https://arxiv.org/abs/2412.16146)]
+
+- **A Comprehensive Analysis of Mamba for 3D Volumetric Medical Image Segmentation.** [March, 2025] [ArXiv, 2025]<br/>
+  *Chaohan Wang, Yutong Xie, Qi Chen, Yuyin Zhou, Qi Wu.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.19308)]
+
+- **LMDepth: Lightweight Mamba-based Monocular Depth Estimation for Real-World Deployment.** [May, 2025] [ArXiv, 2025]<br/>
+  *Jiahuan Long, Xin Zhou.*<br/>
+  [[Paper](https://arxiv.org/abs/2505.00980)]
+
+- **Flood-DamageSense: Multimodal Mamba with Multitask Learning for Building Flood Damage Assessment using SAR Remote Sensing Imagery.** [June, 2025] [Computer-Aided Civil and Infrastructure Engineering, 2025]<br/>
+  *Yu-Hsuan Ho, Ali Mostafavi.*<br/>
+  [[Paper](https://arxiv.org/abs/2506.06667)]
+
+- **State Space Model Meets Transformer: A New Paradigm for 3D Object Detection.** [March, 2025] [ICLR, 2025]<br/>
+  *Chuxin Wang, Wenfei Yang, Xiang Liu, Tianzhu Zhang.*<br/>
+  [[Paper](https://arxiv.org/abs/2503.14493)]
+
+- **EAMamba: Efficient All-Around Vision State Space Model for Image Restoration.** [June, 2025] [ICCV, 2025]<br/>
+  *Yu-Cheng Lin, Yu-Syuan Xu, Hao-Wei Chen, Hsien-Kai Kuo, Chun-Yi Lee.*<br/>
+  [[Paper](https://arxiv.org/abs/2506.22246)]
+
+- **MambaFlow: A Novel and Flow-guided State Space Model for Scene Flow Estimation.** [February, 2025] [ArXiv, 2025]<br/>
+  *Jiehao Luo, Jintao Cheng, Xiaoyu Tang, Qingwen Zhang, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2502.16907)]
+
+- **MambaBEV: An EV-based 3D Detection Model with Mamba2.** [October, 2024] [ICPR, 2026]<br/>
+  *Zihan You, Ni Wang, Hao Wang, Qichao Zhao, Jinxiang Wang.*<br/>
+  [[Paper](https://arxiv.org/abs/2410.12673)]
+
+- **A2Mamba: Attention-augmented State Space Models for Visual Recognition.** [July, 2025] [ArXiv, 2025]<br/>
+  *Meng Lou, Yunxiang Fu, Yizhou Yu.*<br/>
+  [[Paper](https://arxiv.org/abs/2507.16624)]
+
+- **Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook.** [May, 2025] [ArXiv, 2025]<br/>
+  *Muyi Bao, Shuchang Lyu, Zhaoyang Xu, Huiyu Zhou, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2505.00630)]
+
+- **MambaSeg: Harnessing Mamba for Accurate and Efficient Image-Event Semantic Segmentation.** [December, 2025] [AAAI, 2026]<br/>
+  *Fuqiang Gu, Yuanke Li, Xianlei Long, Kangping Ji, et al.*<br/>
+  [[Paper](https://arxiv.org/abs/2512.24243)]
 
 
 
